@@ -7,6 +7,7 @@ import isMarkdown from "../lib/isMarkdown";
 import selectionIsInCode from "../queries/isInCode";
 import { LANGUAGES } from "./Prism";
 import interact from 'interactjs';
+import '@interactjs/actions/resize';
 
 /**
  * Add support for additional syntax that users paste even though it isn't
